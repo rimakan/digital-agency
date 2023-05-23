@@ -1,0 +1,30 @@
+.heroSection {
+  max-width: 140rem;
+  padding: 4.8rem 9.6rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+
+  .container {
+    &__header {
+      font-size: 5.1rem;
+      margin-bottom: 2rem;
+      line-height: 6.375rem;
+      font-weight: 700;
+
+      span {
+        color: var(--main-color);
+      }
+    }
+
+    &__text {
+      color: var(--font-gray-two-color);
+      font-size: 2.1rem;
+      line-height: 3.36rem;
+      font-weight: 400;
+      margin-bottom: 3rem;
+    }
+  }
+}
